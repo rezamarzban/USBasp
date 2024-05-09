@@ -1,11 +1,11 @@
-USBasp socket pinouts to:
+USBasp socket pinouts to an IC:
 ![image1](USBasp.jpg)
 
-WINDOWS software: `progisp` & Driver: `Zadig (libusb-win32)`
+Tested WINDOWS software & Driver: `progisp` software & `Zadig (libusb-win32)` driver
 
-Android app: `ZFlasher AVR`
+Tested Android app: `ZFlasher AVR` app
 
-#### Build `hex` example:
+#### Build `hex`:
 
 ```
 avr-gcc -g -Os -mmcu=see_docs -o main.elf main.c
@@ -41,6 +41,6 @@ int main(void) {
 }
 ```
 
-#### An idea
+#### An idea:
 
 Microcontrollers can be used as oscillator of ELF, VLF, LF, MF and HF analog and digital radio transmitter simply.
