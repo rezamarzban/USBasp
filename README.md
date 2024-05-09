@@ -5,6 +5,8 @@ Tested WINDOWS software & Driver: `progisp` software & `Zadig (libusb-win32)` dr
 
 Tested Android app: `ZFlasher AVR` app
 
+To getting `rar` archives password, Run `getpass.ipynb`
+
 #### Build `hex`:
 
 ```
