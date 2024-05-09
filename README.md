@@ -40,3 +40,7 @@ int main(void) {
   return 0;
 }
 ```
+
+#### An idea
+
+Microcontrollers can be used as oscillator of ELF, VLF, LF, MF and HF analog and digital radio transmitter simply.
