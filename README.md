@@ -17,7 +17,7 @@ To getting `rar` archives password, Run `getpass.ipynb`
 
 4- Choose a programmer hardware among `Arduino uno`, `USBasp` and so on, Then Connect programmer pins to `AVR` IC pins according to provided user manuals and datasheets.
 
-5- Install programmer software (`Arduino IDE`, `progisp`, `Zflasher AVR`, ...) and driver ('Zadiag`, ...) according your OS. Then launch programmer software.
+5- Install programmer software (`AVRDUDE`, `Arduino IDE`, `progisp`, `Zflasher AVR`, ...) and driver (`Zadiag`, ...) according to your OS. Then launch programmer software.
 
 6- Upload `hex` file to `AVR` IC flash.
 
