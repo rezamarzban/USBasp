@@ -24,7 +24,7 @@ int main() {
         // Generate semi-sine wave with a period of 1 ms (1 kHz frequency)
         for (uint8_t i = 0; i < steps; i++) {
             OCR0A = semi_sine_wave[i];
-            _delay_ms(1.0/steps); // Delay 1/22 ms for 1 kHz frequency
+            _delay_us(1000/steps); // _delay_us(1000/22) is used instead of _delay_ms(1/22), Totally delay 1 ms for 1 kHz frequency in 22 steps
         }
     }
 
