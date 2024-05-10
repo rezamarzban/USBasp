@@ -7,6 +7,20 @@ Tested Android app: `ZFlasher AVR` app
 
 To getting `rar` archives password, Run `getpass.ipynb`
 
+#### AVR IC programming guide:
+
+1- Write an `AVR` program in `C` programming language or other programing languages (`Python`, `Assembly`, ...).
+
+2- Compile written `C` language `AVR` program with `avr-gcc`.
+
+3- Build `hex` file with `avr-objcopy` from compiled `C` code.
+
+4- Choose a programmer hardware among `Arduino uno`, `USBasp` and so on, Then Connect programmer pins to `AVR` IC pins according to provided user manuals and datasheets.
+
+5- Install programmer software (`Arduino IDE`, `progisp`, `Zflasher AVR`, ...) and driver ('Zadiag`, ...) according your OS. Then launch programmer software.
+
+6- Upload `hex` file to `AVR` IC flash.
+
 #### Build `hex`:
 
 ```
